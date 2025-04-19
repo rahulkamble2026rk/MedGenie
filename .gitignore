@@ -1,0 +1,54 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pkl  # Ignore pickle files (like your history .pkl files), unless you want to version them
+
+# Logs
+*.log
+logs/
+flask_logs/
+
+# Environment and secrets
+.env
+*.env
+secrets/
+*.key
+*.pem
+
+# Dependency directories
+/site-packages/
+/dist/
+/build/
+/*.egg-info/
+/*.egg
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+data/ai-medical-chatbot.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+temp/
+tmp/
+
+client/ 
+
+.node_modules
