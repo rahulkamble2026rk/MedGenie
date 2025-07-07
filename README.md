@@ -1,5 +1,5 @@
 **MedGenie: AI-Powered Medical Chatbot**
-Check out MedGenie, my AI-driven medical chatbot for fast health insights. Built to impress in interviews!
+Check out MedGenie, my AI-driven medical chatbot for fast health insights.
 
 **Features**
 Diagnosis: Answers symptom queries (e.g., "headache").
@@ -58,7 +58,7 @@ npm install
 npm start
 Access: Hit http://localhost:3000, use guest login: Username: guest, Password: guest123. 
 
-** 📡 API Routes**  
+**📡 API Routes**  
 /api/login: Handles user login.    
 /api/chat: Processes general chats.    
 /api/general_diagnosis: Gives structured diagnosis.    
