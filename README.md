@@ -97,5 +97,10 @@ Fine-tune LLM with med data.
 Add multi-language.
 Deploy on AWS.
 
+**Some Glimpse**
+![image](https://github.com/user-attachments/assets/6a5a4c98-b811-4465-bc19-721878223fde)               
+![image](https://github.com/user-attachments/assets/ab2a2f39-503b-4e56-a493-b264844cf38e)
+
+
 **🤝Contribute**
 Fork it, tweak it, or open issues!
