@@ -16,7 +16,7 @@ Backend: Python, Flask, LangChain, Hugging Face, Groq Llama3-70b-8192, FAISS, Py
 Frontend: React, Axios.
 
 **git clone https://github.com/your-username/medgenie.git** 
-![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)
+![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)   
 
 cd medgenie
 Backend
@@ -46,7 +46,7 @@ npm install
 npm start
 Access: Hit http://localhost:3000, use guest login: Username: guest, Password: guest123. 
 
-** 📡 API Routes**
+** 📡 API Routes**  
 /api/login: Handles user login.    
 /api/chat: Processes general chats.    
 /api/general_diagnosis: Gives structured diagnosis.    
