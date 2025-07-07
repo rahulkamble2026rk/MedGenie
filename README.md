@@ -1,21 +1,15 @@
-**MedGenie: AI-Powered Medical Chatbot**
-Check out MedGenie, my AI-powered medical chatbot built for quick health insights. Perfect for showing off my coding skills in interviews!
+MedGenie: AI-Powered Medical Chatbot
+Check out MedGenie, my AI-driven medical chatbot for fast health insights. Built to impress in interviews!
 
-**Features**
-General Diagnosis: Answers symptom queries (e.g., "headache").
+Features
+Diagnosis: Answers symptom queries (e.g., "headache").
 Report Analyzer: Processes uploaded PDF reports.
-
 Prescription Reader: Reads prescription images.
-
 Google Calendar: Sets med reminders (e.g., "take meds at 8 AM").
-
 Context-Aware Chats: Remembers past talks.
-
 Chat Management: Edit, delete, new chat, save.
-
-YouTube Links: Adds video refs.
-
-Assistive Mode: Asks follow-ups or suggests doctors.
+YouTube Links: Adds video references.
+Assistive Mode: Follow-up questions or doctor suggestions.
 
 **Tech Stack**
 Backend: Python, Flask, LangChain, Hugging Face, Groq Llama3-70b-8192, FAISS, PyPDF2, Pytesseract, Google API.
