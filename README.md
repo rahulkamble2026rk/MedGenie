@@ -16,14 +16,14 @@ Backend: Python, Flask, LangChain, Hugging Face, Groq Llama3-70b-8192, FAISS, Py
 Frontend: React, Axios.
 
 **git clone https://github.com/your-username/medgenie.git** 
-![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)     
+![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)                       
 
 
 
 
 cd medgenie
 Backend
-![image](https://github.com/user-attachments/assets/c4b08f58-0102-408b-9fe8-f9572ca9d2ab)      
+![image](https://github.com/user-attachments/assets/c4b08f58-0102-408b-9fe8-f9572ca9d2ab)                     
 
 
 
