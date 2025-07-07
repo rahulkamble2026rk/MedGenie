@@ -1,4 +1,4 @@
-**MedGenie: AI-Powered Medical Chatbot**
+##MedGenie: AI-Powered Medical Chatbot
 Check out MedGenie, my AI-driven medical chatbot for fast health insights. Built to impress in interviews!
 
 **Features**
