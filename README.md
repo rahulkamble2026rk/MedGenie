@@ -42,19 +42,19 @@ npm start
 Access: Hit http://localhost:3000, use guest login: Username: guest, Password: guest123. 
 
 **Routes**
-/api/login: Handles user login.
-/api/chat: Processes general chats.
-/api/general_diagnosis: Gives structured diagnosis.
-/api/report_analyzer: Analyzes PDF reports.
-/api/prescription_reader: Reads prescription images.
-/api/calendar: Sets calendar events.
-/api/transcribe: Converts voice to text.
-/api/delete_message: Removes a message.
-/api/delete_chat: Deletes a chat.
-/api/edit_message: Edits a message.
-/api/logout: Logs out user.
-/api/google_login: Initiates Google auth.
-/callback: Handles OAuth callback. 
+/api/login: Handles user login. 
+/api/chat: Processes general chats. 
+/api/general_diagnosis: Gives structured diagnosis.  
+/api/report_analyzer: Analyzes PDF reports.  
+/api/prescription_reader: Reads prescription images. 
+/api/calendar: Sets calendar events.  
+/api/transcribe: Converts voice to text.   
+/api/delete_message: Removes a message.   
+/api/delete_chat: Deletes a chat.  
+/api/edit_message: Edits a message.    
+/api/logout: Logs out user.   
+/api/google_login: Initiates Google auth.  
+/callback: Handles OAuth callback.   
 
 
 **Flow**
