@@ -21,9 +21,13 @@ Frontend: React, Axios.
 
 
 
+
+
 cd medgenie
 Backend
 ![image](https://github.com/user-attachments/assets/c4b08f58-0102-408b-9fe8-f9572ca9d2ab)                     
+
+
 
 
 
