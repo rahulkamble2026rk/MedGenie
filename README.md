@@ -15,10 +15,14 @@ Assistive Mode: Follow-up questions or doctor suggestions.
 Backend: Python, Flask, LangChain, Hugging Face, Groq Llama3-70b-8192, FAISS, PyPDF2, Pytesseract, Google API.
 Frontend: React, Axios.
 
-**git clone https://github.com/your-username/medgenie.git**
+**git clone https://github.com/your-username/medgenie.git** 
+![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)
+
 cd medgenie
 Backend
+![image](https://github.com/user-attachments/assets/c4b08f58-0102-408b-9fe8-f9572ca9d2ab)
 
+**Backend**
 **Install**
 pip install -r requirements.txt**
 
@@ -26,13 +30,14 @@ pip install -r requirements.txt**
 GROQ_API_KEY=your_key
 YOUTUBE_API_KEY=your_key 
 
-**Backend**
 Run:
 python app.py 
 
 **Frontend **
 Go to frontend:
 cd frontend
+
+![image](https://github.com/user-attachments/assets/de593524-7c7d-46d8-8209-b1d0194be20e)
 
 **Install:**
 npm install
@@ -41,10 +46,10 @@ npm install
 npm start
 Access: Hit http://localhost:3000, use guest login: Username: guest, Password: guest123. 
 
-**Routes**
-/api/login: Handles user login. 
-/api/chat: Processes general chats. 
-/api/general_diagnosis: Gives structured diagnosis.  
+** 📡 API Routes**
+/api/login: Handles user login.    
+/api/chat: Processes general chats.    
+/api/general_diagnosis: Gives structured diagnosis.    
 /api/report_analyzer: Analyzes PDF reports.  
 /api/prescription_reader: Reads prescription images. 
 /api/calendar: Sets calendar events.  
@@ -57,19 +62,22 @@ Access: Hit http://localhost:3000, use guest login: Username: guest, Password: g
 /callback: Handles OAuth callback.   
 
 
-**Flow**
+**⚙️Flow**
 User inputs via React (chat, file, calendar).
 Flask routes to the right API endpoint.
 FAISS pulls relevant data from ai-medical-chatbot.csv (and PDFs if added).
 Groq Llama3-70b-8192 generates structured response.
 Response sent back to React, with YouTube links if applicable. 
 
-**Architecture**
+**🏗 Architecture**
 
 **User (React) --> Flask API --> Knowledge Base (FAISS, CSV/PDFs) --> Groq LLM --> Response
                   |                        |
-                  +----> YouTube API ----->+**
+                  +----> YouTube API ----->+** 
 
+![image](https://github.com/user-attachments/assets/6bd5d8d6-cda1-4b5e-8e25-47fe474c6a5b)
+
+**🛠 Implementation Notes**
 OCR: Grayscale fix for bad images.
 Audio: Validated WAV headers.
 Calendar: Per-user token storage.
@@ -77,5 +85,5 @@ Fine-tune LLM with med data.
 Add multi-language.
 Deploy on AWS.
 
-**Contribute**
+**🤝Contribute**
 Fork it, tweak it, or open issues!
