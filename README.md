@@ -3,6 +3,7 @@ Check out MedGenie, my AI-powered medical chatbot built for quick health insight
 
 #Features
 General Diagnosis: Answers symptom queries (e.g., "headache").
+
 Report Analyzer: Processes uploaded PDF reports.
 Prescription Reader: Reads prescription images.
 Google Calendar: Sets med reminders (e.g., "take meds at 8 AM").
