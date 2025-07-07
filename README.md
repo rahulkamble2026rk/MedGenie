@@ -98,8 +98,15 @@ Add multi-language.
 Deploy on AWS.
 
 **Some Glimpse**
-![image](https://github.com/user-attachments/assets/6a5a4c98-b811-4465-bc19-721878223fde)               
-![image](https://github.com/user-attachments/assets/ab2a2f39-503b-4e56-a493-b264844cf38e)
+![image](https://github.com/user-attachments/assets/6a5a4c98-b811-4465-bc19-721878223fde)                          
+![image](https://github.com/user-attachments/assets/ab2a2f39-503b-4e56-a493-b264844cf38e)                                                
+![image](https://github.com/user-attachments/assets/5c11a42e-783b-45c9-83d3-53c356d4856c)                                
+![image](https://github.com/user-attachments/assets/8fa151f1-f11a-4671-ab96-cbb8d3d2342b)           
+![image](https://github.com/user-attachments/assets/9d5abf2a-a964-4288-8529-098258f7098a)                     
+![image](https://github.com/user-attachments/assets/e80fd910-bb4b-4b67-b757-b76ad60c76c4)                
+
+
+
 
 
 **🤝Contribute**
