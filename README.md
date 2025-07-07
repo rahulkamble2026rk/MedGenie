@@ -15,7 +15,7 @@ Assistive Mode: Follow-up questions or doctor suggestions.
 Backend: Python, Flask, LangChain, Hugging Face, Groq Llama3-70b-8192, FAISS, PyPDF2, Pytesseract, Google API.
 Frontend: React, Axios.
 
-**git clone https://github.com/your-username/medgenie.git** 
+**git clone https://github.com/Rahul23314/MedGenie.git** 
 ![image](https://github.com/user-attachments/assets/57808c79-d2a4-44e9-9825-0d24048020c4)                       
 
 
