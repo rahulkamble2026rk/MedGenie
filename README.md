@@ -43,7 +43,8 @@ Check out MedGenie, my AI-driven medical chatbot designed to provide fast and re
 git clone https://github.com/Rahul23314/MedGenie.git
 cd MedGenie
 Backend Setup
-![image](https://github.com/user-attachments/assets/fb7c57ee-4027-434d-b415-999367e0a306)
+<img width="696" height="111" alt="1" src="https://github.com/user-attachments/assets/029fb65f-2637-4304-a0fa-9a7f154ac8b5" />
+
 
 
 Install Dependencies
