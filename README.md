@@ -1,6 +1,6 @@
 # MedGenie: AI-Powered Medical Chatbot
 
-Check out MedGenie, my AI-driven medical chatbot designed to provide fast and reliable health insights. Last updated: 03:59 PM IST, Thursday, July 31, 2025.
+Check out MedGenie, my AI-driven medical chatbot designed to provide fast and reliable health insights.
 
 ---
 
@@ -123,15 +123,26 @@ Deploy on AWS or Heroku for scalability.
 
 ##Glimpse 
 1.
-<img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/633d45bb-8b58-4e47-966b-884d8b19001b" />
-<br><br>
-2.
 <img width="1379" height="772" alt="3" src="https://github.com/user-attachments/assets/90b7e79b-f1b4-4def-9a18-ddf2378d6e14" />
 <br><br>
-3.
-
+2.
+<img width="1912" height="912" alt="4" src="https://github.com/user-attachments/assets/7d976bc7-b143-4dfc-a931-189d75977fcd" />
+<br><br>
+3. 
+<img width="1919" height="914" alt="5" src="https://github.com/user-attachments/assets/c6ec567f-38c9-4b3d-a702-ec191e7f8c30" />
 <br><br>
 4.
+<img width="1919" height="915" alt="6" src="https://github.com/user-attachments/assets/e99e8d14-410a-4866-9e48-0959fc100046" />
+<br><br>
+5.
+<img width="1919" height="914" alt="7" src="https://github.com/user-attachments/assets/ff8dc43c-c2a2-4e2d-aedd-3702e68f93e4" />
+<br><br>
+6.
+<img width="1919" height="915" alt="8" src="https://github.com/user-attachments/assets/14602e7e-4a50-4eed-b880-804c0424def0" />
+<br><br>
+7.Architecture Diagram:
+<img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/b08fa276-15fe-4f1b-940e-d4fe86e0d49c" />
+
 
 ##🤝 Contribute
 
