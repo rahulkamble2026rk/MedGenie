@@ -124,6 +124,14 @@ Deploy on AWS or Heroku for scalability.
 ##Glimpse 
 1.
 <img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/633d45bb-8b58-4e47-966b-884d8b19001b" />
+<br><br>
+2.
+<img width="1379" height="772" alt="3" src="https://github.com/user-attachments/assets/90b7e79b-f1b4-4def-9a18-ddf2378d6e14" />
+<br><br>
+3.
+
+<br><br>
+4.
 
 ##🤝 Contribute
 
