@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+# MedGenie: AI-Powered Medical Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out MedGenie, my AI-driven medical chatbot designed to provide fast and reliable health insights. Last updated: 03:59 PM IST, Thursday, July 31, 2025.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- *Diagnosis*: Answers symptom queries (e.g., "headache") with structured responses.
+- *Report Analyzer*: Processes uploaded PDF medical reports for key insights.
+- *Prescription Reader*: Extracts and interprets text from prescription images.
+- *Google Calendar*: Sets medication and appointment reminders (e.g., "take meds at 8 AM").
+- *Context-Aware Chats*: Remembers past conversations for personalized interactions.
+- *Chat Management*: Offers edit, delete, new chat, and save options.
+- *YouTube Links*: Provides relevant video references for education.
+- *Assistive Mode*: Suggests follow-up questions or recommends doctor consultations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+### Backend
+- *Python*: Core language for development.
+- *Flask*: Lightweight web framework for API endpoints.
+- *LangChain*: Manages LLM interactions and context.
+- *Hugging Face*: Provides pre-trained embedding models.
+- *Groq Llama3-70b-8192*: High-performance LLM for natural language processing.
+- *FAISS*: Vector database for efficient similarity searches.
+- *PyPDF2*: Extracts text from PDF files.
+- *Pytesseract*: Performs OCR on images.
+- *Google API*: Integrates Google Calendar and authentication.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- *React*: Component-based UI framework.
+- *Axios*: Handles HTTP requests to the backend.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the Repository
+bash
+git clone https://github.com/Rahul23314/MedGenie.git
+cd MedGenie
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install Dependencies
+bashpip install -r requirements.txt
 
-### `npm run eject`
+Set Environment Variables
+Create a .env file in the root directory:
+textGROQ_API_KEY=your_groq_api_key
+YOUTUBE_API_KEY=your_youtube_api_key
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the Backend
+bashpython app.py
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Frontend Setup
+Navigate to Frontend
+bashcd frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install Dependencies
+bash
+npm install
 
-## Learn More
+Start the Frontend
+bash
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Access the Application
+Open http://localhost:3000 in your browser and use guest login:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Username: guest
+Password: guest123
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📡 API Routes
 
-### Making a Progressive Web App
+/api/login: Authenticates users with username and password.
+/api/chat: Handles general chat interactions.
+/api/general_diagnosis: Provides structured medical diagnosis.
+/api/report_analyzer: Analyzes uploaded PDF reports.
+/api/prescription_reader: Interprets prescription images.
+/api/calendar: Creates Google Calendar events for reminders.
+/api/transcribe: Converts voice input to text.
+/api/delete_message: Removes a specific chat message.
+/api/delete_chat: Deletes an entire chat session.
+/api/edit_message: Updates the content of a chat message.
+/api/logout: Ends the user session.
+/api/google_login: Initiates Google OAuth for calendar access.
+/callback: Handles OAuth callback from Google.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+⚙ Flow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+User Input: Entered via React interface (text, file upload, or calendar details).
+Flask Routing: Directs the request to the appropriate API endpoint.
+FAISS Retrieval: Fetches relevant data from ai-medical-chatbot.csv or uploaded PDFs.
+Groq Llama3-70b-8192: Generates a structured response based on retrieved context.
+Response Delivery: Returned to React with optional YouTube links.
 
-### Deployment
+Architecture Diagram
+<img src="https://github.com/user-attachments/assets/6bd5d8d6-cda1-4b5e-8e25-47fe474c6a5b" alt="Architecture">
+textUser (React) --> Flask API --> Knowledge Base (FAISS, CSV/PDFs) --> Groq LLM --> Response
+                  |                        |
+                  +----> YouTube API ----->+
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛠 Implementation Notes
 
-### `npm run build` fails to minify
+OCR: Implements grayscale conversion to improve text extraction from low-quality images.
+Audio: Validates WAV file headers for accurate transcription.
+Calendar: Stores per-user tokens securely for Google Calendar integration.
+Future Enhancements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fine-tune the LLM with domain-specific medical datasets.
+Add support for multiple languages.
+Deploy on AWS or Heroku for scalability.
+
+
+
+
+##Glimpse 
+1.
+<img width="1379" height="772" alt="3" src="https://github.com/user-attachments/assets/90b7e79b-f1b4-4def-9a18-ddf2378d6e14" />
+<br><br>
+2.
+<img width="1912" height="912" alt="4" src="https://github.com/user-attachments/assets/7d976bc7-b143-4dfc-a931-189d75977fcd" />
+<br><br>
+3. 
+<img width="1919" height="914" alt="5" src="https://github.com/user-attachments/assets/c6ec567f-38c9-4b3d-a702-ec191e7f8c30" />
+<br><br>
+4.
+<img width="1919" height="915" alt="6" src="https://github.com/user-attachments/assets/e99e8d14-410a-4866-9e48-0959fc100046" />
+<br><br>
+5.
+<img width="1919" height="914" alt="7" src="https://github.com/user-attachments/assets/ff8dc43c-c2a2-4e2d-aedd-3702e68f93e4" />
+<br><br>
+6.
+<img width="1919" height="915" alt="8" src="https://github.com/user-attachments/assets/14602e7e-4a50-4eed-b880-804c0424def0" />
+<br><br>
+7.Architecture Diagram:
+<img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/b08fa276-15fe-4f1b-940e-d4fe86e0d49c" />
+
+
+##🤝 Contribute
+
+Fork the Repository: Create your own copy to work on.
+Tweak the Code: Add features or improve existing ones.
+Open Issues: Report bugs or suggest enhancements on GitHub.
+
+---
