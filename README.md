@@ -42,10 +42,6 @@ Check out MedGenie, my AI-driven medical chatbot designed to provide fast and re
 ```bash
 git clone https://github.com/Rahul23314/MedGenie.git
 cd MedGenie
-Backend Setup
-<img width="696" height="111" alt="1" src="https://github.com/user-attachments/assets/029fb65f-2637-4304-a0fa-9a7f154ac8b5" />
-
-
 
 Install Dependencies
 bashpip install -r requirements.txt
@@ -60,16 +56,16 @@ bashpython app.py
 
 
 Frontend Setup
-<img src="https://github.com/user-attachments/assets/de593524-7c7d-46d8-8209-b1d0194be20e" alt="Frontend Directory">
-
 Navigate to Frontend
 bashcd frontend
 
 Install Dependencies
-bashnpm install
+bash
+npm install
 
 Start the Frontend
-bashnpm start
+bash
+npm start
 
 Access the Application
 Open http://localhost:3000 in your browser and use guest login:
@@ -123,18 +119,16 @@ Add support for multiple languages.
 Deploy on AWS or Heroku for scalability.
 
 
+```
 
+##Glimpse 
+1. <img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/633d45bb-8b58-4e47-966b-884d8b19001b" />
 
-Some Glimpses
-<img src="https://github.com/user-attachments/assets/6a5a4c98-b811-4465-bc19-721878223fde" alt="Glimpse 1">
-<img src="https://github.com/user-attachments/assets/ab2a2f39-503b-4e56-a493-b264844cf38e" alt="Glimpse 2">
-<img src="https://github.com/user-attachments/assets/5c11a42e-783b-45c9-83d3-53c356d4856c" alt="Glimpse 3">
-<img src="https://github.com/user-attachments/assets/8fa151f1-f11a-4671-ab96-cbb8d3d2342b" alt="Glimpse 4">
-<img src="https://github.com/user-attachments/assets/9d5abf2a-a964-4288-8529-098258f7098a" alt="Glimpse 5">
-<img src="https://github.com/user-attachments/assets/e80fd910-bb4b-4b67-b757-b76ad60c76c4" alt="Glimpse 6">
-
-🤝 Contribute
+##🤝 Contribute
 
 Fork the Repository: Create your own copy to work on.
 Tweak the Code: Add features or improve existing ones.
 Open Issues: Report bugs or suggest enhancements on GitHub.
+
+---
+
