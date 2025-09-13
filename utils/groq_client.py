@@ -38,7 +38,7 @@ def search_youtube_video(query, api_key):
         logger.error(f"Error searching YouTube: {e}")
         return None, None
 
-def generate_response(client, prompt, context="", model="llama3-70b-8192", youtube_api_key=None):
+def generate_response(client, prompt, context="", model="llama-3.3-70b-versatile", youtube_api_key=None):
     try:
         if not client or not hasattr(client, 'chat'):
             raise ValueError("Invalid Groq client")
