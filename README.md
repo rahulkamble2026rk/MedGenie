@@ -170,24 +170,18 @@ Password: guest123
 4.
 <img width="1919" height="915" alt="6" src="https://github.com/user-attachments/assets/e99e8d14-410a-4866-9e48-0959fc100046" />
 <br><br>
-5.
-<img width="1919" height="914" alt="7" src="https://github.com/user-attachments/assets/ff8dc43c-c2a2-4e2d-aedd-3702e68f93e4" />
-<br><br>
-6.
+5. 
 <img width="1919" height="915" alt="8" src="https://github.com/user-attachments/assets/14602e7e-4a50-4eed-b880-804c0424def0" />
 <br><br>
-7.Architecture Diagram:
+6.
+<img width="1919" height="914" alt="7" src="https://github.com/user-attachments/assets/ff8dc43c-c2a2-4e2d-aedd-3702e68f93e4" />
+<br><br>
+7.**Architecture Diagram**:
 <img width="1577" height="1417" alt="2" src="https://github.com/user-attachments/assets/b08fa276-15fe-4f1b-940e-d4fe86e0d49c" />
 
-
-##🤝 Contribute
+**🤝 Contribute**
 
 Fork the Repository: Create your own copy to work on.
 Tweak the Code: Add features or improve existing ones.
 Open Issues: Report bugs or suggest enhancements on GitHub.
-
-
 ---
-
-
-
