@@ -74,7 +74,7 @@ Open http://localhost:3000 in your browser and use guest login:
 Username: guest
 Password: guest123
 
-
+```
 
 ## 📡 API Routes
 
@@ -187,4 +187,5 @@ Open Issues: Report bugs or suggest enhancements on GitHub.
 
 
 ---
+
 
