@@ -156,7 +156,8 @@ Password: guest123
 - Deploy on AWS or Heroku for scalability.
 
 
-##Glimpse 
+**Glimpse**
+<br>
 1.
 <img width="1379" height="772" alt="3" src="https://github.com/user-attachments/assets/90b7e79b-f1b4-4def-9a18-ddf2378d6e14" />
 <br><br>
@@ -187,5 +188,6 @@ Open Issues: Report bugs or suggest enhancements on GitHub.
 
 
 ---
+
 
 
