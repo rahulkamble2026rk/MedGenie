@@ -1,4 +1,4 @@
-## 🤖🩺 MedGenie: AI-Powered Medical Chatbot
+## 🤖🩺 MedGenie: AI-Powered Medical Assistant
 
 
 MedGenie is an AI-driven medical chatbot designed to provide fast, reliable, and personalized health insights. It leverages advanced technologies to assist users with symptom analysis, medical report interpretation, prescription reading, and appointment scheduling.
@@ -186,5 +186,6 @@ Fork the Repository: Create your own copy to work on.
 Tweak the Code: Add features or improve existing ones.
 Open Issues: Report bugs or suggest enhancements on GitHub.
 ---
+
 
 
