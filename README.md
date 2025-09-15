@@ -40,6 +40,7 @@ MedGenie is an AI-driven medical chatbot designed to provide fast, reliable, and
 
 ### Clone the Repository
 bash
+```
 git clone https://github.com/Rahul23314/MedGenie.git
 cd MedGenie
 
@@ -75,88 +76,84 @@ Password: guest123
 
 
 
-API Routes
+## 📡 API Routes
+
+- **`POST /api/login`**  
+  Authenticates users with username and password.
+
+- **`POST /api/chat`**  
+  Handles general chat interactions.
+
+- **`POST /api/general_diagnosis`**  
+  Provides structured medical diagnosis.
+
+- **`POST /api/report_analyzer`**  
+  Analyzes uploaded PDF reports.
+
+- **`POST /api/prescription_reader`**  
+  Interprets prescription images.
+
+- **`POST /api/calendar`**  
+  Creates Google Calendar events for reminders.
+
+- **`POST /api/transcribe`**  
+  Converts voice input to text.
+
+- **`DELETE /api/delete_message`**  
+  Removes a specific chat message.
+
+- **`DELETE /api/delete_chat`**  
+  Deletes an entire chat session.
+
+- **`PUT /api/edit_message`**  
+  Updates the content of a chat message.
+
+- **`POST /api/logout`**  
+  Ends the user session.
+
+- **`GET /api/google_login`**  
+  Initiates Google OAuth for calendar access.
+
+- **`GET /callback`**  
+  Handles OAuth callback from Google.
 
 
+## ⚙ Flow
+
+1. **User Input**  
+   Entered via React interface (text, file upload, or calendar details).
+
+2. **Flask Routing**  
+   Directs the request to the appropriate API endpoint.
+
+3. **FAISS Retrieval**  
+   Fetches relevant data from `ai-medical-chatbot.csv` or uploaded PDFs.
+
+4. **Groq Llama3-70b-8192**  
+   Generates a structured response based on retrieved context.
+
+5. **Response Delivery**  
+   Returned to React with optional YouTube links.
+
+---
 
 
+## 🛠 Implementation Notes
 
-/api/login: Authenticates users with username and password.
+- **OCR**  
+  Implements grayscale conversion to improve text extraction from low-quality images.
 
+- **Audio**  
+  Validates WAV file headers for accurate transcription.
 
+- **Calendar**  
+  Stores per-user tokens securely for Google Calendar integration.
 
-/api/chat: Handles general chat interactions.
+### ⚡ Future Enhancements
 
-
-
-/api/general_diagnosis: Provides structured medical diagnosis.
-
-
-
-/api/report_analyzer: Analyzes uploaded PDF reports.
-
-
-
-/api/prescription_reader: Interprets prescription images.
-
-
-
-/api/calendar: Creates Google Calendar events for reminders.
-
-
-
-/api/transcribe: Converts voice input to text.
-
-
-
-/api/delete_message: Removes a specific chat message.
-
-
-
-/api/delete_chat: Deletes an entire chat session.
-
-
-
-/api/edit_message: Updates the content of a chat message.
-
-
-
-/api/logout: Ends the user session.
-
-
-
-/api/google_login: Initiates Google OAuth for calendar access.
-
-
-
-/callback: Handles OAuth callback from Google.
-
-⚙ Flow
-
-User Input: Entered via React interface (text, file upload, or calendar details).
-Flask Routing: Directs the request to the appropriate API endpoint.
-FAISS Retrieval: Fetches relevant data from ai-medical-chatbot.csv or uploaded PDFs.
-Groq Llama3-70b-8192: Generates a structured response based on retrieved context.
-Response Delivery: Returned to React with optional YouTube links.
-
-Architecture Diagram
-<img src="https://github.com/user-attachments/assets/6bd5d8d6-cda1-4b5e-8e25-47fe474c6a5b" alt="Architecture">
-textUser (React) --> Flask API --> Knowledge Base (FAISS, CSV/PDFs) --> Groq LLM --> Response
-                  |                        |
-                  +----> YouTube API ----->+
-
-🛠 Implementation Notes
-
-OCR: Implements grayscale conversion to improve text extraction from low-quality images.
-Audio: Validates WAV file headers for accurate transcription.
-Calendar: Stores per-user tokens securely for Google Calendar integration.
-Future Enhancements:
-
-Fine-tune the LLM with domain-specific medical datasets.
-Add support for multiple languages.
-Deploy on AWS or Heroku for scalability.
-
-
+- Fine-tune the LLM with domain-specific medical datasets.
+- Add support for multiple languages.
+- Deploy on AWS or Heroku for scalability.
 
 
 ##Glimpse 
@@ -190,3 +187,4 @@ Open Issues: Report bugs or suggest enhancements on GitHub.
 
 
 ---
+
